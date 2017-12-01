@@ -11,6 +11,7 @@
   "eqnull": true,
   "predef": ["exports"],
   "globals": {
-    "freeboard": true
+    "freeboard": true,
+    "CryptoJS": true
   }
 }
