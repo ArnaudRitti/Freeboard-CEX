@@ -30,7 +30,7 @@
   }
 
   this.getPairs();
-  
+
 	freeboard.loadDatasourcePlugin({
 		"type_name"   : "cex_datasources",
 		"display_name": "CEX.IO Datasource Plugin",
@@ -150,7 +150,7 @@
 			currentSettings = newSettings;
 		}
 
-		self.updateNow = function()
+		self.updateNow = function() {
 			getData();
 		}
 
